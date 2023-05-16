@@ -66,9 +66,10 @@ ul {
 a {
   text-decoration: none;
 }
-img:not(.nav-logo) {
-  width: 100%;
+.nav-logo {
+  width: 25%;
   display: block;
+  margin-top: 2rem;
 }
 
 h1,
