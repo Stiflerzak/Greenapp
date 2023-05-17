@@ -208,7 +208,7 @@ Hero
 @media screen and (min-width: 768px) {
   .hero {
     background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
-      url('./images/main.jpeg') center/cover no-repeat;
+      url('./images/main.gif') center/cover no-repeat;
   }
   .hero-banner {
     padding: 0;
@@ -228,6 +228,7 @@ About
 .about-img,
 .about-info {
   margin-bottom: 2rem;
+  
 }
 
 @media screen and (min-width: 992px) {
@@ -239,6 +240,7 @@ About
   .about-img,
   .about-info {
     margin-bottom: 0;
+    
   }
 }
 @media screen and (min-width: 1170px) {
@@ -258,6 +260,7 @@ About
   }
   .about-photo {
     position: relative;
+    width: 100%;
   }
 }
 /*
