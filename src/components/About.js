@@ -29,7 +29,7 @@ const About = () => {
               importance of protecting the natural environment.
             </p>
             
-            <a href="#" className="btn">
+            <a href="#about" className="btn">
               read more
             </a>
           </article>
