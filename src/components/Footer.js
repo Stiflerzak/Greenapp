@@ -24,7 +24,7 @@ const Footer = () => {
         })}
       </ul>
       <p className="copyright">
-        copyright &copy; greenyapp company&#8482;
+        copyright &copy; Hilary Mwendia Kariuki company&#8482;
         <span id="date">{new Date().getFullYear()}</span> all rights reserved
       </p>
     </footer>
