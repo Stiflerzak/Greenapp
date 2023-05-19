@@ -28,6 +28,7 @@ const About = () => {
               only lead you on incredible adventures but also educate you on the
               importance of protecting the natural environment.
             </p>
+            
             <a href="#" className="btn">
               read more
             </a>
