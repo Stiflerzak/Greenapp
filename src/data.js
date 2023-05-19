@@ -3,7 +3,6 @@ import tour2 from "./images/tour-2.jpeg";
 import tour3 from "./images/tour-3.jpeg";
 import tour4 from "./images/tour-4.jpeg";
 
-
 // Page links
 
 export const pageLinks = [
@@ -16,9 +15,18 @@ export const pageLinks = [
 // social media links
 
 export const socialLinks = [
-  { id: 1, href: "https://www.twitter.com", icon: "fab fa-facebook" },
-  { id: 2, href: "https://www.twitter.com", icon: "fab fa-twitter" },
-  { id: 3, href: "https://www.twitter.com", icon: "fab fa-squarespace" },
+  {
+    id: 1,
+    href: "https://www.facebook.com/Narutoelectronicsuppliers/",
+    icon: "fab fa-facebook",
+  },
+  { id: 2, href: "https://twitter.com/hila42553161", icon: "fab fa-twitter" },
+  { id: 4, href: "https://github.com/stiflerzak/", icon: "fab fa-github" },
+  {
+    id: 3,
+    href: "https://www.linkedin.com/in/hilary-kariuki-9b972a17b/",
+    icon: "fab fa-squarespace",
+  },
 ];
 
 // services data
@@ -48,44 +56,44 @@ export const services = [
 export const tours = [
   {
     id: 1,
-    image: { tour1 },
+    image: tour1,
     date: "august 23th, 2023",
     title: "4 Days Masai Mara Packages",
     info: "Experience the awe-inspiring Maasai Mara ecosystem, home to The Big Five and the Mighty Maasai Warriors. Let us plan your unforgettable 4-Day safari adventure, where you'll witness stunning African vistas, encounter majestic wildlife, and immerse yourself in the rich culture of the Maasai Mara.",
     location: "Kenya",
     duration: 4,
-    cost: 35143,
+    cost: 35000,
   },
   {
     id: 2,
-    image: { tour2 },
+    image: tour2,
     date: "November 23th, 2023",
     title: "10 Days Seychelles",
     info: "Embark on a 10-day journey to the tropical paradise of Seychelles, where pristine beaches, turquoise waters, and lush landscapes await",
     location: "seychelles",
     duration: 10,
-    cost: 37143,
+    cost: 77000,
   },
 
   {
     id: 3,
-    image: { tour3 },
+    image: tour3,
     date: "October 25th, 2023",
     title: "4 Diani Packages",
     info: "Immerse yourself in the tropical paradise of Kenya's coastline, where pristine white-sand beaches meet crystal-clear turquoise waters",
     location: "Kenya",
     duration: 5,
-    cost: 40143,
+    cost: 40000,
   },
 
   {
     id: 4,
-    image: { tour4 },
+    image: tour4,
     date: "December 23th, 2023",
     title: " Mt Kenya Packages",
     info: "Immerse yourself in the awe-inspiring beauty of Africa's second highest peak, where snow-capped peaks, lush valleys, and diverse flora and fauna await. ",
     location: "Kenya",
     duration: 8,
-    cost: 80143,
+    cost: 80000,
   },
 ];
